@@ -1,0 +1,15 @@
+* {
+  background: #212121;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.textarea-dark {
+  border: 1px solid #ccc;
+  padding: 10px;
+  resize: "none", 
+}
+.textarea-dark::placeholder {
+  color: #fff; /* Placeholder color */
+  opacity: 0.8; /* Optional: Adjust opacity */
+}
